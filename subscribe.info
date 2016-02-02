@@ -1,0 +1,5 @@
+name = "subscribe"
+description = "Represents a block, where you can type in a valid e-mail address, and sends a mail."
+configure = admin/config/system/subscribe
+core = "7.x"
+version = "7.x-1.0"

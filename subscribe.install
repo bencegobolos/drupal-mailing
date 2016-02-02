@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Uninstall variables for the subscribe module.
+ */
+
+/**
+ * Implements hook_uninstall().
+ */
+function subscribe_uninstall(){
+  variable_del('subscribe_recipient');
+  variable_del('subscribe_subject');
+  variable_del('subscribe_message');
+}
